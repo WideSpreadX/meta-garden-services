@@ -24,9 +24,106 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    background: burlywood;
+    background: rgb(83, 75, 27);
     color: #000;
+    width: 100%;
+    height: 100%;
 }
 h1 {
     font-size: 2em;
+    font-family: 'Alex Brush', cursive;
 }
+/*============Cell Phone================*/
+.top {
+    width: 100%;
+    background: rgba(182, 12, 12, 0.479);
+}
+.title {
+    width: 100%;
+    padding-top: 5px;
+    color: gold;
+    text-shadow: 0 0 4px crimson;
+    font-size: 1.5em;
+    text-align: center;
+    box-shadow: inset 0 0 20px rgba(220, 20, 60, 0.541);
+}
+.nav {
+    margin-top: 10px;
+    margin-left: 1%;
+    width: 100%;
+    background: #000;
+}
+.nav li {
+    float: left;
+    list-style: none;
+    margin-left: 2.5%;
+    font-size: 1em;
+}
+.nav a {
+    text-decoration: none;
+    color: gold;
+    text-shadow: 0 0 2px yellow;
+    font-family: 'Alex Brush', cursive;
+
+}
+.nav a:hover {
+    color: crimson;
+}
+/*MIDDLE*/
+.mid {
+    width: 100%;
+    margin-top: 80px;
+}
+.form {
+    width: 90%;
+    padding: 20px;
+    color: #fff;
+}
+.clearfix {
+    margin: 10px;
+    padding: 20px;
+}
+.form input {
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 1.1em;
+    color: #fff;
+    background: transparent;
+    box-shadow: 0 0 10px gold;
+}
+
+/*============================*/
+@media only screen and (min-width: 768px){
+}
+/*============================*/
+@media only screen and (min-width: 960px){
+    .top {
+        float: left;
+    }
+    .nav {
+        width: 20%;
+        height: 100%;
+    }
+    .nav li {
+        float: none;
+        width: 20%;
+        background: rgb(83, 75, 27);
+    }
+    .nav a {
+        font-size: 2.5em;
+    }
+    .mid {
+        float: right;
+    }
+}
+/*============================*/
+/*============================*/
+/*============================*/
+/*============================*/
+/*============================*/
+/*============================*/
+/*============================*/
+/*============================*/
