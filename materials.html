@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meta Garden Services</title>
+    <link rel="stylesheet" href="./assets/css/dark.css">
+
+</head>
+
+<body>
+    <div class="top">
+        <h1>Meta Garden Services</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./materials.html">Materials</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mid">
+        <form name="mulchForm" class="contact-form clearfix">
+            <p>Enter Mulch Bed Length</p>
+            <p>
+                <input type="text" class="left" name="length" placeholder="Enter length (in feet)" />
+            </p>
+            <div class="clearfix"></div>
+            <p>Enter Mulch Bed Width</p>
+            <p>
+                <input type="text" class="left" name="width" placeholder="Enter width (in feet)" />
+            </p>
+            <div class="clearfix"></div>
+            <p>Enter Mulch Bed Depth</p>
+            <p>
+                <input type="text" class="left" name="depth" placeholder="Enter depth (in inches)" />
+            </p>
+            <div class="clearfix"></div>
+            <!--Form buttons -->
+            <p>
+                <input type="button" onClick="calculate();" value="Calculate">
+                <input type="button" onClick="mulchForm.reset();" value="Clear Form">
+                <input type="button" onClick="add();" value="Add">
+                <div class="clearfix"></div>
+            </p>
+            <p>Approximate Number of Cubic Yards of Mulch Needed:</p>
+            <p>
+                <input type="text" class="left" name="cubicYards" placeholder="Number of cubic yards needed" />
+            </p>
+            <div id=list></div>
+            <div id=total></div>
+        </form>
+    </div>
+    <div class="bot"></div>
+    <script src="./assets/logic/app.js"></script>
+</body>
+
+</html>
